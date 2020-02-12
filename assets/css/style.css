@@ -1,0 +1,172 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  margin-top: 16px;
+ 
+  
+}
+.header-menu { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+ul {
+  padding-left: 30px;
+  margin: 0px;
+}
+
+li {
+  display: inline;
+  padding: 0 10px 0 0;
+  
+}
+
+#grid-icon {
+  width: 30px;
+  height: 30px;
+}
+
+body {
+  font-size: 13px;
+  font-family: arial, sans-serif;
+}
+
+
+.border1{
+  display: flex;
+  width:484px;
+  height:46px;
+  border:1px solid #dfe1e5;
+  border-radius: 24px;
+  margin: 0 auto;
+}
+.borderIn{
+  flex: 1;
+  display:flex;
+  padding: 0px 8px 0 16px;
+  padding-left: 14px;
+  font-family: arial, sans-serif;
+}
+.border1:hover{
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+.borderX{
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: 0px;
+ 
+}
+.borderY{
+  display: flex;
+  align-items: center;
+  padding-right: 8px;
+  padding-left: 8px;
+
+
+}
+.borderZ{
+  display: flex;
+  align-items: center;
+
+  
+  padding-left: 8px;
+  
+
+}
+#googlelogo {
+  padding-top: 138px;
+}
+
+main {
+  text-align: center;
+}
+
+input {
+  display: flex;
+  flex: 100%;
+  width: 357px;
+  height: 34px;
+  border: 1px ;
+  margin :0px;
+  padding:0px;
+}
+input:focus, textarea:focus, select:focus{
+  outline: none;
+ }
+#boxes {
+  margin: 15px 4px;
+  padding: 0 16px;
+}
+
+ .button {
+  color: #5F6368;
+    margin-right: 4px;
+    margin-bottom: 11px;
+    margin-left: 4px;
+  padding: 10px 15px;
+  background-color:rgb(238, 238, 238);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.button:hover {
+color: black;
+  border:1px solid #c6c6c6;
+ 
+ 
+} 
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+  color: #5f6368;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgray;
+  z-index: -1;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(238, 238, 238);
+  border-top: 0.5px solid lightgray;
+}
+
+
+footer p {
+  display: block;
+  font-size: 15px;
+  padding-left: 30px;
+}
+
+a {
+  text-decoration: none;
+  color:rgba(0,0,0,0.87);
+  padding-right: 10px;
+}
+
+footer a {
+  color: #5F6368;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.profile img {
+  width: 30px;
+  border-radius: 50%;
+}
